@@ -1,4 +1,7 @@
 <?php
+$address = "localhost";
+$service_port = 8888;
+
 $token = new Token($address, $service_port);
 header("Content-type: application/json");
 
