@@ -4,7 +4,6 @@ Bank token using PHP
 ## Example
 
 ```php
-<?php
 $address = "localhost";
 $service_port = 80;
 
@@ -29,7 +28,6 @@ TODO Get last token saved on the database from previouse token update
 // Get last token for all banks
 //echo json_encode($token->getToken());
 
-?>
 ```
 
 
