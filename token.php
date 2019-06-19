@@ -1,6 +1,5 @@
 <?php
-$address = "localhost";
-$service_port = 8888;
+
 
 class Token
 {
