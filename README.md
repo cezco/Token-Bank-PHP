@@ -1,8 +1,13 @@
 # PHP-Bank-Token
 Bank token using PHP
 
+## Example
+
 ```php
 <?php
+$address = "localhost";
+$service_port = 80;
+
 $token = new Token($address, $service_port);
 header("Content-type: application/json");
 
@@ -26,3 +31,5 @@ TODO Get last token saved on the database from previouse token update
 
 ?>
 ```
+
+
